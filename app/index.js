@@ -1,5 +1,5 @@
 var React = require('react');
-var ReactDom = require('react-dom');
+var ReactDOM = require('react-dom');
 require('./index.css')
 
 class App extends React.Component {
@@ -11,3 +11,8 @@ class App extends React.Component {
   )
   }
 }
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('app')
+);
